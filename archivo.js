@@ -13,6 +13,8 @@ function calcularDescuento(){
     }
 
 
+calcularDescuento()
+
 
 
 
