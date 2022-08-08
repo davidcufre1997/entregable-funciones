@@ -1,19 +1,33 @@
-function calcularDescuento(){
-
-    let opcion=prompt("Escribi aqui el precio al que deseas aplicar el descuento")
-    let opcion2=prompt("Escribi aqui el % de descuento que quieras aplicar a " + opcion)
-
-    let calculo=( opcion * opcion2 / 100)
-    let calculo2=(opcion-calculo)
-
-    alert ("El decuento que se va a aplicar es de " + calculo );
-
-    alert ("El precio final con el descuento incluido es de " + calculo2)
-
-    }
 
 
-calcularDescuento()
+const frutas=[]
+let cantidad = 5
+do{
+    let entrada= prompt ("Por favor escriba aqui el nombre de la fruta o verdura que desee agregar a su compra ")
+    frutas.push (entrada.toUpperCase())
+    console.log(frutas.length)
+} while (frutas.length != cantidad)
+
+const nuevalista = frutas.concat([])
+    
+alert  (nuevalista.join ("\n"))  
+
+
+
+
+    
+
+
+
+
+
+
+   
+
+    
+
+
+
 
 
 
